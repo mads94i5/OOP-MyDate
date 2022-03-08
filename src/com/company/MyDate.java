@@ -7,7 +7,7 @@ public class MyDate {
     private int year;
 
     public void setToNextDay() {
-        if ((month % 2 == 0) && (month != 2) && (month < 8)) {
+        if ((month % 2 == 0) && (month < 8) && (month != 2)) {
             if (day < 30) {
                 day += 1;
             }
